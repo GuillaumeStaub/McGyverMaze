@@ -27,6 +27,12 @@ Python 3.X.X
 ```
 If python is not installed on your machine go to the site: [https://www.python.org](https://www.python.org), download **Python 3.X.X** and follow the instructions. 
 
+If you are Linux user you can install Python from the console with the command : `$ sudo apt-get install python3`
+
+If you are MacOS user you can use [MacPorts](https://www.macports.org) and install Python from the terminal with the command : `$ sudo port install python3`
+
+Or you can use too [HomeBrew](https://brew.sh) from the terminal with the command : `$ brew install python3`
+
 ### ![windows](https://img.icons8.com/color/48/000000/windows-logo.png) For Windows users :
 
 1. Open the console and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
@@ -58,31 +64,44 @@ $ pipenv run python home.py --terminal
 ```
 
 If you get a similar screen for the pygame version:
-![Pygame Error](https://cdn.discordapp.com/attachments/557808297428779009/582250292058390529/Capture_decran_2019-05-26_a_18.52.11.png)
+![Pygame Error](https://zupimages.net/up/19/22/orl6.png)
 
 Follow the following instructions:
 
 1. Open the console and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
-2. 
+2. Create your virtual environement with [venv](https://docs.python.org/3/library/venv.html)
  ```
 $ python3 -m venv venv
 ```
-3. 
+3. Activate your venv environment with:
 ```
 $ source venv/bin/activate
 ```
-4. 
+4. Install the necessary packages to run the program like Pygame, Click ... This is possible thanks to the requirements file. To do this, run the following command : 
 ```
 $ pip install -r requirements.txt
 ```
-5. 
+5. Now that all packages are installed run the program with Pygame Interface :
 ```
 $ python home.py
+```
+6. To start the game with Terminal Interface type the following command from the root of the project : 
+```
+$ python home.py --terminal
 ```
 
 
 ### ![linux](https://img.icons8.com/color/48/000000/linux.png) For Linux  or other Unix users :
-
+1. Open the Terminal and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
+2. Check that pipenv is installed on your machine with `$ pipenv --version` if the answer is `pipenv, version 2018.XX.XX` it's ok.  If not install pipenv with the command `$ pip install pipenv`
+3. To start the game with GUI with Pygame type the following command from the root of the project : 
+```
+$ pipenv run python home.py
+```
+4. To start the game with Terminal Interface type the following command from the root of the project : 
+```
+$ pipenv run python home.py --terminal
+```
 
 Contribute to the program
 --------------------------                                                            
