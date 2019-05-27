@@ -42,6 +42,45 @@ $ pipenv run python home.py --terminal
 
 ### ![apple](https://img.icons8.com/dusk/48/000000/mac-os.png) For MacOs users : 
 
+There is a known error between pipenv, pygame and MacOS Mojave. [Error Pygame and MacOS Mojave](https://github.com/pygame/pygame/issues/555)
+
+You can try the same things WIndows users:
+
+1. Open the console and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
+2. Check that pipenv is installed on your machine with `$ pipenv --version` if the answer is `pipenv, version 2018.XX.XX` it's ok.  If not install pipenv with the command `$ pip3 install pipenv`
+3. To start the game with GUI with Pygame type the following command from the root of the project : 
+```
+$ pipenv run python home.py
+```
+4. To start the game with Terminal Interface type the following command from the root of the project : 
+```
+$ pipenv run python home.py --terminal
+```
+
+If you get a similar screen for the pygame version:
+![Pygame Error](https://cdn.discordapp.com/attachments/557808297428779009/582250292058390529/Capture_decran_2019-05-26_a_18.52.11.png)
+
+Follow the following instructions:
+
+1. Open the console and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
+2. 
+ ```
+$ python3 -m venv venv
+```
+3. 
+```
+$ source venv/bin/activate
+```
+4. 
+```
+$ pip install -r requirements.txt
+```
+5. 
+```
+$ python home.py
+```
+
+
 ### ![linux](https://img.icons8.com/color/48/000000/linux.png) For Linux  or other Unix users :
 
 
