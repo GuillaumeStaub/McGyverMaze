@@ -2,6 +2,7 @@ class Position:
     '''Class that manages all the positions in the maze
     x being the line number and y the column number
      '''
+
     def __init__(self, x, y):
         self.x = int(x)
         self.y = int(y)

@@ -15,7 +15,7 @@ How does it work ?
 -------------------
 To start use **clone or download** button on github and **Download ZIP** on your computer, or copy HTTPS link and use the terminal on your computer and type : 
 ```
-$ git clone https://github.com/GuillaumeStaub/exercice_python.git
+$ git clone https://github.com/GuillaumeStaub/McGyverMaze.git
 ```
 Check if python 3 is installed on your machine. For this, open the terminal and type : 
 ```
@@ -30,7 +30,7 @@ If python is not installed on your machine go to the site: [https://www.python.o
 ### ![windows](https://img.icons8.com/color/48/000000/windows-logo.png) For Windows users :
 
 1. Open the console and navigate to the root of the project McGyverMaze with the commande `$ cd\...\McGyverMaze`
-2. Check that pipenv is installed on your machine with `$ pipenv --version` if the answer is `pipenv, version 2018.11.26` it's ok.  If not install pipenv with the command `$ pip install pipenv`
+2. Check that pipenv is installed on your machine with `$ pipenv --version` if the answer is `pipenv, version 2018.XX.XX` it's ok.  If not install pipenv with the command `$ pip install pipenv`
 3. To start the game with GUI with Pygame type the following command from the root of the project : 
 ```
 $ pipenv run python home.py

@@ -26,14 +26,17 @@ class MenuBar(pygame.sprite.Sprite):
                 True, constants.COLOR_FONT_MENU)
         elif len(self.perso.inventory) == 1:
             self.image = self.message.render(
-                f"You have {len(self.perso.inventory)}/3 item in your inventory",
+                f"You have {len(self.perso.inventory)}/3"
+                " item in your inventory",
                 True, constants.COLOR_FONT_MENU)
         elif len(self.perso.inventory) > 1 and len(self.perso.inventory) < 3:
             self.image = self.message.render(
-                f"You have {len(self.perso.inventory)}/3 items in your inventory",
+                f"You have {len(self.perso.inventory)}/3"
+                "items in your inventory",
                 True, constants.COLOR_FONT_MENU)
         elif len(self.perso.inventory) == 3:
             self.image = self.message.render(
-                f"You can put the guard to sleep", True, constants.COLOR_FONT_MENU)
+                f"You can put the guard to sleep",
+                True, constants.COLOR_FONT_MENU)
 
         return self.image

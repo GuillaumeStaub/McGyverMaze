@@ -18,13 +18,15 @@ class Game:
         '''
         self.user = input(
             'In which direction do you want to go ?'
-            ' U for Up, D for Down, L for Left, R for Right and Q for quit...').upper()
+            ' U for Up, D for Down, L for Left,'
+            ' R for Right and Q for quit...').upper()
         while self.user != "R" and\
                 self.user != "L" and self.user != "U" and\
                 self.user != "D" and self.user != "Q":
             self.user = input(
                 'In which direction do you want to go ?'
-                ' U for Up, D for Down, L for Left, R for Right and Q for quit...').upper()
+                ' U for Up, D for Down, L for Left,'
+                ' R for Right and Q for quit...').upper()
             if self.user == "R" and self.user == "L" and\
                     self.user == "U" and self.user == "D" and\
                     self.user != "Q":
