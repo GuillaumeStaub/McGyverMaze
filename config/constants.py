@@ -1,8 +1,10 @@
+'''
+ Contains all game constants, parameters and main functions of the program
+'''
 import os
 import pygame
 from pygame.compat import geterror
 
-# Contains all game constants, parameters and main functions of the program
 pygame.init()
 
 

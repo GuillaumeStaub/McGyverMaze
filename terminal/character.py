@@ -1,3 +1,9 @@
+'''
+This module contains one class to manage the character. 
+Methods that manage the movement, the collection
+ of objects and the final confrontation. 
+ '''
+
 from terminal.labyrinthe import Labyrinth
 from terminal.position import Position
 

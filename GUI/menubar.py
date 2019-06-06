@@ -1,3 +1,10 @@
+'''
+This module allows in our game to display 
+a text bar that indicates the progress 
+of the player. Indicates the number of items 
+he has in his inventory and whether 
+he can lull the guard.
+'''
 from GUI.character import Character
 from config import constants
 import pygame

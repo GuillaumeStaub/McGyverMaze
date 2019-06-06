@@ -1,3 +1,10 @@
+'''
+This module represents the heart of the game. 
+It initializes all other classes and harmonizes 
+all the methods. It contains the main function of 
+the game it is here that the game is launched.
+'''
+
 from terminal.labyrinthe import Labyrinth
 from terminal.character import Character
 

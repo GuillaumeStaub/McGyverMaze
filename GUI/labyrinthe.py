@@ -1,3 +1,10 @@
+'''
+This module contains a class that symbolizes 
+the playing surface. It is therefore this module
+ that manages the generation of the level and
+  the display of the elements of the game.
+'''
+
 from GUI.position import Position
 import random
 from config import constants

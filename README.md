@@ -1,3 +1,4 @@
+
 MCyver maze game
 =================                                                                       
 Why this program? 
@@ -64,7 +65,10 @@ $ pipenv run python home.py --terminal
 ```
 
 If you get a similar screen for the pygame version:
+<p></p>
+
 ![Pygame Error](https://zupimages.net/up/19/22/orl6.png)
+
 
 Follow the following instructions:
 

@@ -1,3 +1,10 @@
+'''
+This module controls the background music 
+of the game. In the text bar a small button allows you 
+to activate or deactivate the sound of the game. 
+By default it is disabled.
+'''
+
 import pygame
 from config import constants
 

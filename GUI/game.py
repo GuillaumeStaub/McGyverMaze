@@ -1,3 +1,10 @@
+'''
+This module represents the heart of the game. 
+It initializes all other classes and harmonizes 
+all the methods. It contains the main function of 
+the game it is here that the game is launched.
+'''
+
 from GUI.labyrinthe import Labyrinth
 from GUI.character import Character, EndOfGame
 from GUI.menubar import MenuBar

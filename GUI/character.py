@@ -1,4 +1,13 @@
-from GUI.labyrinthe import Labyrinth
+'''
+This module contains two classes to manage the character. 
+Methods that manage the movement, the collection
+ of objects and the final confrontation. 
+ But also a class inherited from Exception 
+ to be able to control the main loop output when 
+ the player has lost or won. 
+'''
+
+from GUI.labyrinthe import Labyrinth 
 from config import constants
 import pygame
 

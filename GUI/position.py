@@ -1,3 +1,10 @@
+'''
+This module is the backbone of the game. 
+It contains the class position that serves 
+as a template for positioning game elements 
+and managing the movement of the hero.
+'''
+
 from config import constants
 
 
